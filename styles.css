@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s ease all;
+}
+
+:root {
+    --dark-color: #433B33;
+    --bg-color: #D9CEC0;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+main {
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.marco {
+    border: 4px solid var(--dark-color);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 1rem;
+}
+
+.logo img {
+    width: 40rem;
+}
+
+h1 {
+    font-family: "bilo", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    bottom: 4%;
+    font-size: 3rem;
+    color: var(--dark-color);
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.categorias {
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.categorias img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.categorias h2 {
+    font-family: "bilo", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+@media (hover: hover) {
+    .imagen:hover {
+        box-shadow: 8px 8px #1a1a1a;
+    }
+}
